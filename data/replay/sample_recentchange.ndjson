@@ -1,0 +1,12 @@
+{"meta":{"domain":"en.wikipedia.org","dt":"2026-05-05T12:00:00Z"},"user":"Alice","bot":false,"server_name":"en.wikipedia.org","wiki":"enwiki","type":"edit","title":"Real-time system","id":1}
+{"meta":{"domain":"commons.wikimedia.org","dt":"2026-05-05T12:00:00Z"},"user":"ImageBot","bot":true,"server_name":"commons.wikimedia.org","wiki":"commonswiki","type":"edit","title":"File:Telemetry.png","id":2}
+{"meta":{"domain":"wikidata.org","dt":"2026-05-05T12:00:01Z"},"user":"Bala","bot":false,"server_name":"wikidata.org","wiki":"wikidatawiki","type":"edit","title":"Q42","id":3}
+{"meta":{"domain":"en.wikipedia.org","dt":"2026-05-05T12:00:02Z"},"user":"Charlie","bot":false,"server_name":"en.wikipedia.org","wiki":"enwiki","type":"new","title":"Scheduling drift","id":4}
+{"meta":{"domain":"en.wikipedia.org","dt":"2026-05-05T12:00:03Z"},"user":"MaintenanceBot","bot":true,"server_name":"en.wikipedia.org","wiki":"enwiki","type":"edit","title":"Template cleanup","id":5}
+{"meta":{"domain":"de.wikipedia.org","dt":"2026-05-05T12:00:04Z"},"user":"Dana","bot":false,"server_name":"de.wikipedia.org","wiki":"dewiki","type":"edit","title":"Echtzeitsystem","id":6}
+{"meta":{"domain":"fr.wikipedia.org","dt":"2026-05-05T12:00:05Z"},"user":"Echo","bot":false,"server_name":"fr.wikipedia.org","wiki":"frwiki","type":"edit","title":"Systeme temps reel","id":7}
+{"meta":{"domain":"commons.wikimedia.org","dt":"2026-05-05T12:00:06Z"},"user":"CommonsDelinker","bot":true,"server_name":"commons.wikimedia.org","wiki":"commonswiki","type":"edit","title":"File:Queue.svg","id":8}
+{"meta":{"domain":"en.wikipedia.org","dt":"2026-05-05T12:00:07Z"},"user":"Farah","bot":false,"server_name":"en.wikipedia.org","wiki":"enwiki","type":"edit","title":"Priority scheduling","id":9}
+{"meta":{"domain":"wikidata.org","dt":"2026-05-05T12:00:08Z"},"user":"DataBot","bot":true,"server_name":"wikidata.org","wiki":"wikidatawiki","type":"edit","title":"Q2601","id":10}
+{"meta":{"domain":"en.wikipedia.org","dt":"2026-05-05T12:00:09Z"},"user":"Gita","bot":false,"server_name":"en.wikipedia.org","wiki":"enwiki","type":"edit","title":"Rust concurrency","id":11}
+{"meta":{"domain":"de.wikipedia.org","dt":"2026-05-05T12:00:10Z"},"user":"HelperBot","bot":true,"server_name":"de.wikipedia.org","wiki":"dewiki","type":"edit","title":"Vorlage","id":12}

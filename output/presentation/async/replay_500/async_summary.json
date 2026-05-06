@@ -1,0 +1,48 @@
+{
+  "arch": "async",
+  "mode": "replay:data/replay/captured_recentchange.ndjson",
+  "packets_seen": 500,
+  "packets_processed": 500,
+  "degraded_bot_drops": 0,
+  "overflow_count": 0,
+  "deadline_misses": 0,
+  "network_resets": 0,
+  "degraded_transitions": 0,
+  "recovered_transitions": 0,
+  "latency": {
+    "p50_us": 23.7,
+    "p90_us": 30.5,
+    "p99_us": 59.7
+  },
+  "processing": {
+    "p50_us": 16.4,
+    "p90_us": 20.5,
+    "p99_us": 34.6
+  },
+  "human_drift": {
+    "p50_us": 7.3,
+    "p90_us": 11.8,
+    "p99_us": 30.5
+  },
+  "bot_drift": {
+    "p50_us": 7.4,
+    "p90_us": 9.8,
+    "p99_us": 22.5
+  },
+  "max_queue_depth": 1,
+  "top_domains": [
+    [
+      "commons.wikimedia.org",
+      213
+    ],
+    [
+      "zh.wikisource.org",
+      72
+    ],
+    [
+      "www.wikidata.org",
+      45
+    ]
+  ],
+  "overflow_events": []
+}
