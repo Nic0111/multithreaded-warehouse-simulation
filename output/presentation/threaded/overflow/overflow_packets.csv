@@ -1,4 +1,0 @@
-seq,priority,domain,latency_us,processing_us,drift_us,deadline_missed,degraded_mode,hot_path_allocations
-116,human,wikidata.org,23057.600,3060.300,19997.300,true,true,0
-117,human,en.wikipedia.org,26083.700,3007.600,23076.100,true,true,0
-119,human,de.wikipedia.org,29093.900,3008.100,26085.800,true,true,0
