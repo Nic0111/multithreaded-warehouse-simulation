@@ -1,5 +1,6 @@
 use crate::realtime::priority::Priority;
 use serde::Deserialize;
+use std::borrow::Cow;
 
 #[derive(Debug, Deserialize)]
 pub struct RecentChangeBorrowed<'a> {
@@ -16,7 +17,7 @@ pub struct RecentChangeBorrowed<'a> {
     #[serde(default, borrow, rename = "type")]
     pub event_type: &'a str,
     #[serde(default, borrow)]
-    pub title: &'a str,
+    pub title: Cow<'a, str>,
     #[serde(default)]
     pub id: Option<i64>,
 }
