@@ -1,0 +1,40 @@
+{
+  "arch": "threaded",
+  "mode": "synthetic:priority-pressure",
+  "packets_seen": 80,
+  "packets_processed": 80,
+  "degraded_bot_drops": 0,
+  "overflow_count": 0,
+  "deadline_misses": 0,
+  "network_resets": 0,
+  "degraded_transitions": 0,
+  "recovered_transitions": 0,
+  "latency": {
+    "p50_us": 31306.1,
+    "p90_us": 39649.2,
+    "p99_us": 41593.2
+  },
+  "processing": {
+    "p50_us": 258.3,
+    "p90_us": 269.6,
+    "p99_us": 390.2
+  },
+  "human_drift": {
+    "p50_us": 22638.9,
+    "p90_us": 24739.3,
+    "p99_us": 24997.6
+  },
+  "bot_drift": {
+    "p50_us": 33596.1,
+    "p90_us": 39944.8,
+    "p99_us": 41322.6
+  },
+  "max_queue_depth": 80,
+  "top_domains": [
+    [
+      "en.wikipedia.org",
+      80
+    ]
+  ],
+  "overflow_events": []
+}

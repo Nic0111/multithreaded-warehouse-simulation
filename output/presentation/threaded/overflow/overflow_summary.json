@@ -1,0 +1,745 @@
+{
+  "arch": "threaded",
+  "mode": "synthetic:overflow-spike",
+  "packets_seen": 120,
+  "packets_processed": 3,
+  "degraded_bot_drops": 1,
+  "overflow_count": 116,
+  "deadline_misses": 3,
+  "network_resets": 0,
+  "degraded_transitions": 1,
+  "recovered_transitions": 0,
+  "latency": {
+    "p50_us": 25720.6,
+    "p90_us": 28728.0,
+    "p99_us": 28728.0
+  },
+  "processing": {
+    "p50_us": 3009.1,
+    "p90_us": 3082.3,
+    "p99_us": 3082.3
+  },
+  "human_drift": {
+    "p50_us": 22711.5,
+    "p90_us": 25720.5,
+    "p99_us": 25720.5
+  },
+  "bot_drift": {
+    "p50_us": 0.0,
+    "p90_us": 0.0,
+    "p99_us": 0.0
+  },
+  "max_queue_depth": 4,
+  "top_domains": [
+    [
+      "de.wikipedia.org",
+      1
+    ],
+    [
+      "en.wikipedia.org",
+      1
+    ],
+    [
+      "wikidata.org",
+      1
+    ]
+  ],
+  "overflow_events": [
+    {
+      "timestamp_ns": 1778261737248678800,
+      "capacity": 4,
+      "dropped_seq": 0,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248695000,
+      "capacity": 4,
+      "dropped_seq": 1,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248702500,
+      "capacity": 4,
+      "dropped_seq": 2,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248707800,
+      "capacity": 4,
+      "dropped_seq": 3,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248713400,
+      "capacity": 4,
+      "dropped_seq": 4,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248719100,
+      "capacity": 4,
+      "dropped_seq": 5,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248723900,
+      "capacity": 4,
+      "dropped_seq": 6,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248728600,
+      "capacity": 4,
+      "dropped_seq": 7,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248733300,
+      "capacity": 4,
+      "dropped_seq": 8,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248738700,
+      "capacity": 4,
+      "dropped_seq": 9,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248743300,
+      "capacity": 4,
+      "dropped_seq": 10,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248747800,
+      "capacity": 4,
+      "dropped_seq": 11,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248752600,
+      "capacity": 4,
+      "dropped_seq": 12,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248757100,
+      "capacity": 4,
+      "dropped_seq": 13,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248761900,
+      "capacity": 4,
+      "dropped_seq": 14,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248766500,
+      "capacity": 4,
+      "dropped_seq": 15,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248771100,
+      "capacity": 4,
+      "dropped_seq": 16,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248776700,
+      "capacity": 4,
+      "dropped_seq": 17,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248781900,
+      "capacity": 4,
+      "dropped_seq": 18,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248786700,
+      "capacity": 4,
+      "dropped_seq": 19,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248791400,
+      "capacity": 4,
+      "dropped_seq": 20,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248796300,
+      "capacity": 4,
+      "dropped_seq": 21,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248801100,
+      "capacity": 4,
+      "dropped_seq": 22,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248805600,
+      "capacity": 4,
+      "dropped_seq": 23,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248810100,
+      "capacity": 4,
+      "dropped_seq": 24,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248814700,
+      "capacity": 4,
+      "dropped_seq": 25,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248819300,
+      "capacity": 4,
+      "dropped_seq": 26,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248824500,
+      "capacity": 4,
+      "dropped_seq": 27,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248829800,
+      "capacity": 4,
+      "dropped_seq": 28,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248834400,
+      "capacity": 4,
+      "dropped_seq": 29,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248839100,
+      "capacity": 4,
+      "dropped_seq": 30,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248843700,
+      "capacity": 4,
+      "dropped_seq": 31,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248848300,
+      "capacity": 4,
+      "dropped_seq": 32,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248855100,
+      "capacity": 4,
+      "dropped_seq": 33,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248859900,
+      "capacity": 4,
+      "dropped_seq": 34,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248864400,
+      "capacity": 4,
+      "dropped_seq": 35,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248869400,
+      "capacity": 4,
+      "dropped_seq": 36,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248875700,
+      "capacity": 4,
+      "dropped_seq": 37,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248883700,
+      "capacity": 4,
+      "dropped_seq": 38,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248888800,
+      "capacity": 4,
+      "dropped_seq": 39,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248893300,
+      "capacity": 4,
+      "dropped_seq": 40,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248898500,
+      "capacity": 4,
+      "dropped_seq": 41,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248903100,
+      "capacity": 4,
+      "dropped_seq": 42,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248908800,
+      "capacity": 4,
+      "dropped_seq": 43,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248916500,
+      "capacity": 4,
+      "dropped_seq": 44,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248922300,
+      "capacity": 4,
+      "dropped_seq": 45,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248927200,
+      "capacity": 4,
+      "dropped_seq": 46,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248931900,
+      "capacity": 4,
+      "dropped_seq": 47,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248936900,
+      "capacity": 4,
+      "dropped_seq": 48,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248942300,
+      "capacity": 4,
+      "dropped_seq": 49,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248948300,
+      "capacity": 4,
+      "dropped_seq": 50,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248956100,
+      "capacity": 4,
+      "dropped_seq": 51,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248960600,
+      "capacity": 4,
+      "dropped_seq": 52,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248965000,
+      "capacity": 4,
+      "dropped_seq": 53,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248969800,
+      "capacity": 4,
+      "dropped_seq": 54,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248975700,
+      "capacity": 4,
+      "dropped_seq": 55,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248980600,
+      "capacity": 4,
+      "dropped_seq": 56,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248986000,
+      "capacity": 4,
+      "dropped_seq": 57,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248990600,
+      "capacity": 4,
+      "dropped_seq": 58,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737248995300,
+      "capacity": 4,
+      "dropped_seq": 59,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249001200,
+      "capacity": 4,
+      "dropped_seq": 60,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249021700,
+      "capacity": 4,
+      "dropped_seq": 61,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249026600,
+      "capacity": 4,
+      "dropped_seq": 62,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249032100,
+      "capacity": 4,
+      "dropped_seq": 63,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249037100,
+      "capacity": 4,
+      "dropped_seq": 64,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249050500,
+      "capacity": 4,
+      "dropped_seq": 65,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249055500,
+      "capacity": 4,
+      "dropped_seq": 66,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249060100,
+      "capacity": 4,
+      "dropped_seq": 67,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249065600,
+      "capacity": 4,
+      "dropped_seq": 68,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249071000,
+      "capacity": 4,
+      "dropped_seq": 69,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249075900,
+      "capacity": 4,
+      "dropped_seq": 70,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249080400,
+      "capacity": 4,
+      "dropped_seq": 71,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249084900,
+      "capacity": 4,
+      "dropped_seq": 72,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249089400,
+      "capacity": 4,
+      "dropped_seq": 73,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249094000,
+      "capacity": 4,
+      "dropped_seq": 74,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249099600,
+      "capacity": 4,
+      "dropped_seq": 75,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249104900,
+      "capacity": 4,
+      "dropped_seq": 76,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249109800,
+      "capacity": 4,
+      "dropped_seq": 77,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249114400,
+      "capacity": 4,
+      "dropped_seq": 78,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249118900,
+      "capacity": 4,
+      "dropped_seq": 79,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249123900,
+      "capacity": 4,
+      "dropped_seq": 80,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249132200,
+      "capacity": 4,
+      "dropped_seq": 81,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249137900,
+      "capacity": 4,
+      "dropped_seq": 82,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249144400,
+      "capacity": 4,
+      "dropped_seq": 83,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249150200,
+      "capacity": 4,
+      "dropped_seq": 84,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249155500,
+      "capacity": 4,
+      "dropped_seq": 85,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249160500,
+      "capacity": 4,
+      "dropped_seq": 86,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249166900,
+      "capacity": 4,
+      "dropped_seq": 87,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249172200,
+      "capacity": 4,
+      "dropped_seq": 88,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249176900,
+      "capacity": 4,
+      "dropped_seq": 89,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249182800,
+      "capacity": 4,
+      "dropped_seq": 90,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249187500,
+      "capacity": 4,
+      "dropped_seq": 91,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249192300,
+      "capacity": 4,
+      "dropped_seq": 92,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249197500,
+      "capacity": 4,
+      "dropped_seq": 93,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249203100,
+      "capacity": 4,
+      "dropped_seq": 94,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249219400,
+      "capacity": 4,
+      "dropped_seq": 95,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249224700,
+      "capacity": 4,
+      "dropped_seq": 96,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249229700,
+      "capacity": 4,
+      "dropped_seq": 97,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249234500,
+      "capacity": 4,
+      "dropped_seq": 98,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249239400,
+      "capacity": 4,
+      "dropped_seq": 99,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249244900,
+      "capacity": 4,
+      "dropped_seq": 100,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249249600,
+      "capacity": 4,
+      "dropped_seq": 101,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249254200,
+      "capacity": 4,
+      "dropped_seq": 102,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249258800,
+      "capacity": 4,
+      "dropped_seq": 103,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249263900,
+      "capacity": 4,
+      "dropped_seq": 104,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249288600,
+      "capacity": 4,
+      "dropped_seq": 105,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249293600,
+      "capacity": 4,
+      "dropped_seq": 106,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249298100,
+      "capacity": 4,
+      "dropped_seq": 107,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249302800,
+      "capacity": 4,
+      "dropped_seq": 108,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249307500,
+      "capacity": 4,
+      "dropped_seq": 109,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249312700,
+      "capacity": 4,
+      "dropped_seq": 110,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249317800,
+      "capacity": 4,
+      "dropped_seq": 111,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249322800,
+      "capacity": 4,
+      "dropped_seq": 112,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249328000,
+      "capacity": 4,
+      "dropped_seq": 113,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249332900,
+      "capacity": 4,
+      "dropped_seq": 114,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778261737249337400,
+      "capacity": 4,
+      "dropped_seq": 115,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    }
+  ]
+}

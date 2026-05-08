@@ -1,0 +1,385 @@
+{
+  "arch": "threaded",
+  "mode": "replay:data/replay/captured_recentchange.ndjson",
+  "packets_seen": 500,
+  "packets_processed": 444,
+  "degraded_bot_drops": 0,
+  "overflow_count": 56,
+  "deadline_misses": 0,
+  "network_resets": 0,
+  "degraded_transitions": 0,
+  "recovered_transitions": 0,
+  "latency": {
+    "p50_us": 11533.0,
+    "p90_us": 14954.0,
+    "p99_us": 15395.8
+  },
+  "processing": {
+    "p50_us": 15.9,
+    "p90_us": 20.2,
+    "p99_us": 57.7
+  },
+  "human_drift": {
+    "p50_us": 6118.6,
+    "p90_us": 10425.4,
+    "p99_us": 10896.0
+  },
+  "bot_drift": {
+    "p50_us": 12746.8,
+    "p90_us": 15159.1,
+    "p99_us": 15383.1
+  },
+  "max_queue_depth": 256,
+  "top_domains": [
+    [
+      "commons.wikimedia.org",
+      177
+    ],
+    [
+      "zh.wikisource.org",
+      101
+    ],
+    [
+      "en.wikipedia.org",
+      63
+    ]
+  ],
+  "overflow_events": [
+    {
+      "timestamp_ns": 1778262398800722500,
+      "capacity": 256,
+      "dropped_seq": 135,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800743700,
+      "capacity": 256,
+      "dropped_seq": 136,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800759400,
+      "capacity": 256,
+      "dropped_seq": 137,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800776800,
+      "capacity": 256,
+      "dropped_seq": 138,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800793900,
+      "capacity": 256,
+      "dropped_seq": 139,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800810800,
+      "capacity": 256,
+      "dropped_seq": 140,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800833600,
+      "capacity": 256,
+      "dropped_seq": 141,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800849100,
+      "capacity": 256,
+      "dropped_seq": 142,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800865300,
+      "capacity": 256,
+      "dropped_seq": 143,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800882400,
+      "capacity": 256,
+      "dropped_seq": 144,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800902100,
+      "capacity": 256,
+      "dropped_seq": 145,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800918700,
+      "capacity": 256,
+      "dropped_seq": 146,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800937300,
+      "capacity": 256,
+      "dropped_seq": 147,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800955800,
+      "capacity": 256,
+      "dropped_seq": 148,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800972400,
+      "capacity": 256,
+      "dropped_seq": 149,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398800988400,
+      "capacity": 256,
+      "dropped_seq": 150,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801007800,
+      "capacity": 256,
+      "dropped_seq": 151,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801027200,
+      "capacity": 256,
+      "dropped_seq": 152,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801044400,
+      "capacity": 256,
+      "dropped_seq": 153,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801068000,
+      "capacity": 256,
+      "dropped_seq": 154,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801084800,
+      "capacity": 256,
+      "dropped_seq": 155,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801101300,
+      "capacity": 256,
+      "dropped_seq": 156,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801116300,
+      "capacity": 256,
+      "dropped_seq": 157,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801135800,
+      "capacity": 256,
+      "dropped_seq": 158,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801156400,
+      "capacity": 256,
+      "dropped_seq": 159,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801173700,
+      "capacity": 256,
+      "dropped_seq": 160,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801196800,
+      "capacity": 256,
+      "dropped_seq": 161,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801213700,
+      "capacity": 256,
+      "dropped_seq": 162,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801232000,
+      "capacity": 256,
+      "dropped_seq": 163,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801255600,
+      "capacity": 256,
+      "dropped_seq": 164,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801276300,
+      "capacity": 256,
+      "dropped_seq": 165,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801298000,
+      "capacity": 256,
+      "dropped_seq": 166,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801314800,
+      "capacity": 256,
+      "dropped_seq": 167,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801335800,
+      "capacity": 256,
+      "dropped_seq": 168,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801351400,
+      "capacity": 256,
+      "dropped_seq": 169,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801367900,
+      "capacity": 256,
+      "dropped_seq": 170,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801389700,
+      "capacity": 256,
+      "dropped_seq": 171,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801405100,
+      "capacity": 256,
+      "dropped_seq": 172,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801494300,
+      "capacity": 256,
+      "dropped_seq": 173,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801524300,
+      "capacity": 256,
+      "dropped_seq": 174,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801560400,
+      "capacity": 256,
+      "dropped_seq": 175,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801593700,
+      "capacity": 256,
+      "dropped_seq": 176,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801617900,
+      "capacity": 256,
+      "dropped_seq": 177,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801638300,
+      "capacity": 256,
+      "dropped_seq": 178,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801658800,
+      "capacity": 256,
+      "dropped_seq": 179,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801678100,
+      "capacity": 256,
+      "dropped_seq": 180,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801696200,
+      "capacity": 256,
+      "dropped_seq": 181,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801714700,
+      "capacity": 256,
+      "dropped_seq": 182,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801734400,
+      "capacity": 256,
+      "dropped_seq": 183,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801761200,
+      "capacity": 256,
+      "dropped_seq": 184,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801785100,
+      "capacity": 256,
+      "dropped_seq": 185,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801805400,
+      "capacity": 256,
+      "dropped_seq": 186,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801823600,
+      "capacity": 256,
+      "dropped_seq": 187,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801841600,
+      "capacity": 256,
+      "dropped_seq": 188,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801861000,
+      "capacity": 256,
+      "dropped_seq": 189,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    },
+    {
+      "timestamp_ns": 1778262398801879200,
+      "capacity": 256,
+      "dropped_seq": 190,
+      "reason": "bounded-channel-overflow-drop-oldest"
+    }
+  ]
+}

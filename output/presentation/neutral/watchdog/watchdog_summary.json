@@ -1,0 +1,10 @@
+{
+  "timeout_seconds": 10,
+  "event": "Network Reset",
+  "last_data_received_at": "1778262244.201105900Z",
+  "reset_triggered_at": "1778262254.209744600Z",
+  "observed_silence_ms": 10008,
+  "recovery_action": "Reconnect Wikimedia SSE source and continue with bounded queue preserved",
+  "result": "watchdog timeout triggered successfully",
+  "evidence_note": "Controlled network-silence simulation using the same tokio timeout mechanism as the live Wikimedia stream watchdog."
+}

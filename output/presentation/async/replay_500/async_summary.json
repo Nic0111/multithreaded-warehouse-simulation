@@ -1,0 +1,48 @@
+{
+  "arch": "async",
+  "mode": "replay:data/replay/captured_recentchange.ndjson",
+  "packets_seen": 500,
+  "packets_processed": 500,
+  "degraded_bot_drops": 0,
+  "overflow_count": 0,
+  "deadline_misses": 0,
+  "network_resets": 0,
+  "degraded_transitions": 0,
+  "recovered_transitions": 0,
+  "latency": {
+    "p50_us": 29.6,
+    "p90_us": 49.4,
+    "p99_us": 94.8
+  },
+  "processing": {
+    "p50_us": 19.1,
+    "p90_us": 30.9,
+    "p99_us": 46.2
+  },
+  "human_drift": {
+    "p50_us": 9.4,
+    "p90_us": 21.2,
+    "p99_us": 51.6
+  },
+  "bot_drift": {
+    "p50_us": 10.0,
+    "p90_us": 19.9,
+    "p99_us": 52.5
+  },
+  "max_queue_depth": 1,
+  "top_domains": [
+    [
+      "commons.wikimedia.org",
+      201
+    ],
+    [
+      "zh.wikisource.org",
+      106
+    ],
+    [
+      "en.wikipedia.org",
+      71
+    ]
+  ],
+  "overflow_events": []
+}
